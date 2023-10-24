@@ -1,0 +1,218 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@400;500&display=swap');
+ .navbar {
+        padding: 0px;
+       
+        word-spacing: 15px;
+        padding-right: 10px;
+        padding-left: 10px;   
+        font-size:x-large;
+        
+       
+    
+        
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: auto;
+
+}
+    
+      
+body{
+    background-color:black;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: 'sunshine';
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+
+}
+@font-face {
+    font-family: 'sunshine';
+    src: url(fonts/Sunshine.ttf);
+}
+@font-face {
+    font-family: lovely;
+    src: url(fonts/Carnevalee\ Freakshow.ttf);
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600px;
+    position: relative;
+    font-family: 'lovely';
+    color: chocolate;
+    padding-left: 50px;
+
+}
+.navbar a:after{
+    content: "";
+    position: absolute;
+    background-color: chocolate;
+    height: 3px;
+    width: 0%;
+    right: 0px;
+    bottom: -10px;
+    transition: 0.6s;
+}
+a.hover{
+    color: white;
+}
+a:hover:after{
+    width:100%;
+    
+}
+
+
+.content
+{
+    padding-top: 100px;
+     font-size: 150%;
+    text-align:justify;
+    font-weight: 200%;
+    color: cornsilk;
+    font-family: "";
+    text-align: center; 
+    text-shadow: 10%;
+    align-items: left;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.7)rgba(0,0,0,0.7));
+    width: 150%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-right: 100%;
+   
+
+}
+.img_deg{
+    width: 40%;
+    float: right;
+    padding-top: 100px;
+    padding-right: 50px;
+
+
+}
+.content p{
+font-size: 16px;
+}
+.content h1{
+    font-family: lovely;
+    color: chocolate;
+}
+@font-face {
+    font-family: lovely;
+    src: url(fonts/Carnevalee\ Freakshow.ttf);
+}
+.content a{
+    padding: 5px 10px;
+    border-style:line;
+    color: black;
+    transition: 0.5s;
+    background-color: chocolate;
+    font-family: 'lovely';
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.sub-container h3{
+    color: chocolate;
+    font-size: 21px;
+    font-weight: bold;
+}
+.sub-container img{
+    width: 100px;
+    max-width: 50px;
+    height: auto;
+
+}
+.sub-container{
+    padding: 43px 43px 43px 43px;
+    border-radius: 3rem;
+    justify-content: space-around;
+}
+.social {
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+  }
+  .social a{
+    color: cornsilk;
+    
+ }
+ .about{
+    border-style: double;
+    border-color: chocolate;
+    margin-top: 10px;
+    
+    border-radius: 10px;
+    background-color: chocolate;
+    text-align: center;
+
+ }
+ .title p{
+    color: antiquewhite;
+    align-items: center;
+    
+ }
+ .title h1{
+    color: chocolate;
+    align-items: center;
+ }
+ .title{
+    margin-top: 60px;
+    margin-left: 20px;
+    
+ }
+ .about a{
+    text-decoration: none;
+    font-size: 17px;
+    color: chocolate;
+    border-style: double;
+    border-color: black;
+    
+    border-radius: 10px;
+    background-color: black
+     }
+.about P{
+    padding-bottom:10px;
+}
+.about-me hr{
+    color: black;
+}
+.div li{
+    font-size: 20px;
+}
+.img1{
+    width:160px;
+    float: right;
+    
+}

@@ -1,0 +1,21 @@
+$(document).ready(function(){
+	$(".nav-link").on('click', function(event) {
+
+    	if (this.hash !== "") {
+
+			event.preventDefault();
+
+			var hash = this.hash;
+
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 700, function(){
+				window.location.hash = hash;
+			});
+      	} 
+    });
+});
+const toggle = document.getElementById('toggle')
+const nav = document.getElementById('nav')
+
+toggle.addEventListener('click', () => nav.classList.toggle('active'))
